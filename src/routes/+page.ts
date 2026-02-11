@@ -4,8 +4,8 @@ import type { FeatureCollection } from "geojson";
 
 export const load: PageLoad = async ({ fetch }) => {
   const [resCalles, resGeo] = await Promise.all([
-    fetch("/csvjson.json"),
-    fetch("/tigre.geojson"), // Asumiendo que este GeoJSON tiene todos los municipios o el área amplia
+    fetch("csvjson.json"),
+    fetch("tigre.geojson"), // Asumiendo que este GeoJSON tiene todos los municipios o el área amplia
   ]);
 
   if (!resCalles.ok || !resGeo.ok) throw new Error("Error cargando archivos");
