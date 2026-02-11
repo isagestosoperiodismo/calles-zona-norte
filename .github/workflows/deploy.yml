@@ -4,6 +4,11 @@ on:
   push:
     branches: "main"
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build_site:
     runs-on: ubuntu-latest
@@ -18,10 +23,14 @@ jobs:
 
       - name: Install dependencies
         run: deno install
+        
+      - name: SvelteKit Sync
+        # Asegúrate de que NO haya espacio entre npm: y @sveltejs/kit
+        run: deno run -A npm:@sveltejs/kit sync
 
       - name: build
         env:
-          BASE_PATH: "/${{ github.event.repository.name }}"
+          BASE_PATH: "/calles-zona-norte"
         run: deno task build
 
       - name: Upload Artifacts
@@ -32,7 +41,7 @@ jobs:
   deploy:
     needs: build_site
     runs-on: ubuntu-latest
-
+    # Permisos necesarios explícitos en este job también
     permissions:
       pages: write
       id-token: write
