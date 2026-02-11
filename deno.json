@@ -1,7 +1,7 @@
 {
   "tasks": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "svelte-kit sync && vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -9,15 +9,10 @@
     "clean": "rm -rf .sda-cache && rm -rf .journalism-cache && rm -rf .tmp"
   },
   "nodeModulesDir": "auto",
-  "unstable": [
-    "sloppy-imports",
-    "fmt-component"
-  ],
+  "unstable": ["sloppy-imports", "fmt-component"],
   "lint": {
     "rules": {
-      "exclude": [
-        "no-sloppy-imports"
-      ]
+      "exclude": ["no-sloppy-imports"]
     }
   },
   "imports": {
@@ -36,24 +31,17 @@
     "vite": "npm:vite@^7.3.1"
   },
   "compilerOptions": {
-    "rootDirs": [
-      ".",
-      "./.svelte-kit/types"
-    ],
+    "rootDirs": [".", "./.svelte-kit/types"],
     "verbatimModuleSyntax": true,
-    "lib": [
-      "esnext",
-      "DOM",
-      "DOM.Iterable",
-      "deno.ns"
-    ],
-    "types": [
-      "./.svelte-kit/ambient.d.ts",
-      "./.svelte-kit/non-ambient.d.ts"
-    ]
+    "lib": ["esnext", "DOM", "DOM.Iterable", "deno.ns"],
+    "types": ["./.svelte-kit/ambient.d.ts", "./.svelte-kit/non-ambient.d.ts"]
   },
   "allowScripts": {
     "allow": [],
-    "deny": ["npm:esbuild@0.27.3", "npm:playwright-chromium@1.58.2", "npm:protobufjs@7.5.4"]
+    "deny": [
+      "npm:esbuild@0.27.3",
+      "npm:playwright-chromium@1.58.2",
+      "npm:protobufjs@7.5.4"
+    ]
   }
 }
