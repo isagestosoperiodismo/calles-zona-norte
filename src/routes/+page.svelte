@@ -15,30 +15,30 @@
     async function cargarGeojson() {
       cargando = true;
 
-      // Normalizamos el nombre del archivo
+      // 1. Creamos el nombre del archivo (ej: "tigre")
       const nombreArchivo = municipioSeleccionado
         .toLowerCase()
         .replace(/\s+/g, "")
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
 
-      // CONSTRUCCIÓN DE LA RUTA:
-      // Usamos base y nos aseguramos de que no haya doble barra
-      const rutaFetch = `${base}/${nombreArchivo}.geojson`.replace(/\/+/g, "/");
-
-      console.log("Ruta final generada:", rutaFetch);
-
       try {
-        const res = await fetch(rutaFetch);
+        // 2. IMPORTANTE: Sin barra "/" al principio.
+        // Esto hace que busque en la misma carpeta donde está la web.
+        const res = await fetch(`${nombreArchivo}.geojson`);
+
         if (res.ok) {
           geojsonCargado = await res.json();
-          console.log("✅ Datos cargados correctamente");
+          console.log(`✅ ${nombreArchivo} cargado con éxito`);
         } else {
-          console.error("❌ Error 404 en la ruta:", rutaFetch);
+          console.error(
+            "❌ No se encontró el archivo:",
+            `${nombreArchivo}.geojson`,
+          );
           geojsonCargado = null;
         }
       } catch (e) {
-        console.error("❌ Falló el fetch:", e);
+        console.error("❌ Error de red:", e);
       } finally {
         cargando = false;
       }

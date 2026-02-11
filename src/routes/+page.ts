@@ -1,22 +1,17 @@
 import type { Calle } from "$lib/types.ts";
 import type { PageLoad } from "./$types";
-import type { FeatureCollection } from "geojson";
 
 export const load: PageLoad = async ({ fetch }) => {
-  const [resCalles, resGeo] = await Promise.all([
-    fetch("csvjson.json"),
-    fetch("tigre.geojson"), // Asumiendo que este GeoJSON tiene todos los municipios o el área amplia
-  ]);
+  // Cargamos SOLO el archivo de datos de las calles
+  // Quitamos la "/" inicial para que GitHub Pages no se pierda
+  const resCalles = await fetch("csvjson.json");
 
-  if (!resCalles.ok || !resGeo.ok) throw new Error("Error cargando archivos");
+  if (!resCalles.ok) throw new Error("No se pudo cargar csvjson.json");
 
   const calles = (await resCalles.json()) as Calle[];
-  const geojson = (await resGeo.json()) as FeatureCollection;
 
-  // Solo enviamos los datos crudos y la lista de municipios para el Select
   return {
     calles,
-    geojson,
     municipios: [
       ...new Set(calles.map((d) => d.municipio).filter(Boolean)),
     ].sort(),
