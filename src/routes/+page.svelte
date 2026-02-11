@@ -3,10 +3,9 @@
   import { colorPorGenero } from "$lib/map/color.js";
   import Select from "../components/Select.svelte";
   import type { FeatureCollection } from "geojson";
+  import { base } from "$app/paths";
 
   let { data } = $props();
-
-  console.log(data.geojson);
 
   let municipioSeleccionado = $state("Tigre");
   let geojsonCargado = $state<FeatureCollection | null>(null);
@@ -15,30 +14,31 @@
   $effect(() => {
     async function cargarGeojson() {
       cargando = true;
+
+      // Normalizamos el nombre del archivo
       const nombreArchivo = municipioSeleccionado
         .toLowerCase()
         .replace(/\s+/g, "")
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "");
 
-      const rutaFetch = `/${nombreArchivo}.geojson`;
-      console.log(`🔎 Intentando cargar municipio: ${municipioSeleccionado}`);
-      console.log(`📂 Ruta del archivo: ${rutaFetch}`);
+      // CONSTRUCCIÓN DE LA RUTA:
+      // Usamos base y nos aseguramos de que no haya doble barra
+      const rutaFetch = `${base}/${nombreArchivo}.geojson`.replace(/\/+/g, "/");
+
+      console.log("Ruta final generada:", rutaFetch);
 
       try {
         const res = await fetch(rutaFetch);
         if (res.ok) {
-          const json = await res.json();
-          console.log(`✅ ¡Éxito! Features cargadas: ${json.features.length}`);
-          geojsonCargado = json;
+          geojsonCargado = await res.json();
+          console.log("✅ Datos cargados correctamente");
         } else {
-          console.error(
-            `❌ Error ${res.status}: No se encontró el archivo en static${rutaFetch}`,
-          );
+          console.error("❌ Error 404 en la ruta:", rutaFetch);
           geojsonCargado = null;
         }
       } catch (e) {
-        console.error("❌ Error fatal en el fetch:", e);
+        console.error("❌ Falló el fetch:", e);
       } finally {
         cargando = false;
       }
