@@ -9,6 +9,7 @@
 
 <header>
   <h3>Este proyecto está en una verisón muy bb aún, paciencia ❤️</h3>
+  <a href="/mujeres">Sobre ellas</a>
 </header>
 
 <main>
