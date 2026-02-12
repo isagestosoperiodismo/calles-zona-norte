@@ -42,7 +42,9 @@
     cargarGeojson();
   });
 
-  let geojsonMunicipio = $derived.by(() => annotateGeojson(geojsonCargado, data.calles, "tigre"));
+  let geojsonMunicipio = $derived.by(() =>
+    annotateGeojson(geojsonCargado, data.calles, "tigre"),
+  );
 
   let projection = $derived.by(() => {
     if (!geojsonMunicipio) return null;
@@ -57,7 +59,9 @@
     );
   });
 
-  let pathGenerator = $derived(projection ? geoPath().projection(projection) : null);
+  let pathGenerator = $derived(
+    projection ? geoPath().projection(projection) : null,
+  );
   let mostrarLoader = $derived(
     !cargaInicialCompleta || cargando || !geojsonMunicipio || !pathGenerator,
   );
@@ -103,7 +107,9 @@
         (entries) => {
           entries.forEach((entry) => {
             if (!entry.isIntersecting) return;
-            const index = Number((entry.target as HTMLElement).dataset.step || "0");
+            const index = Number(
+              (entry.target as HTMLElement).dataset.step || "0",
+            );
             if (!Number.isNaN(index)) {
               inicioStory = true;
               activeStep = index;
@@ -132,16 +138,31 @@
 <div class="story-page">
   <section class="map-stage">
     {#if pathGenerator && geojsonMunicipio}
-      <svg viewBox="0 0 {width} {height}" class="responsive-svg" preserveAspectRatio="xMidYMid slice">
+      <svg
+        viewBox="0 0 {width} {height}"
+        class="responsive-svg"
+        preserveAspectRatio="xMidYMid slice"
+      >
         <g>
           {#each features as feature}
-            <path d={pathGenerator(feature as any)} class="base-path" stroke={strokeBase()} stroke-width={strokeWidthBase()} opacity="1" />
+            <path
+              d={pathGenerator(feature as any)}
+              class="base-path"
+              stroke={strokeBase()}
+              stroke-width={strokeWidthBase()}
+              opacity="1"
+            />
           {/each}
         </g>
 
         <g>
           {#each visiblesHighlight as feature}
-            <path d={pathGenerator(feature as any)} class="gender-path" stroke={strokeColorHighlight()} stroke-width={strokeWidthHighlight()} />
+            <path
+              d={pathGenerator(feature as any)}
+              class="gender-path"
+              stroke={strokeColorHighlight()}
+              stroke-width={strokeWidthHighlight()}
+            />
           {/each}
         </g>
       </svg>
@@ -149,22 +170,27 @@
   </section>
 
   <section class="story-panels" aria-label="Relato del mapa">
-    <StoryHeader showCounter={inicioStory} counter={counter} />
+    <StoryHeader showCounter={inicioStory} {counter} />
 
     <div class="story-steps">
       {#each storySteps as step, index}
-        <article class="story-card" class:active={index === activeStep} data-step={index} use:setStepRef={index}>
+        <article
+          class="story-card"
+          class:active={index === activeStep}
+          data-step={index}
+          use:setStepRef={index}
+        >
           <h2>{step.title}</h2>
           <p>{step.message}</p>
 
           {#if index === 0}
-            <p class="metric">{stats.totalCalles.toLocaleString("es-AR")} trazas totales</p>
+            <p class="metric"></p>
           {:else if index === 1}
-            <p class="metric">{stats.callesConNombre.toLocaleString("es-AR")} calles con nombre detectable</p>
+            <p class="metric"></p>
           {:else if index === 2}
-            <p class="metric">{stats.callesPersona.toLocaleString("es-AR")} calles asociadas a personas</p>
+            <p class="metric"></p>
           {:else}
-            <p class="metric">{stats.callesFemeninas.toLocaleString("es-AR")} calles con nombres femeninos</p>
+            <p class="metric"></p>
           {/if}
         </article>
       {/each}
@@ -227,7 +253,10 @@
   .gender-path {
     fill: none;
     stroke-linecap: round;
-    transition: stroke 0.7s ease, stroke-width 0.7s ease, opacity 0.7s ease;
+    transition:
+      stroke 0.7s ease,
+      stroke-width 0.7s ease,
+      opacity 0.7s ease;
   }
 
   .story-panels {
