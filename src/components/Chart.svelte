@@ -1,6 +1,16 @@
 <script lang="ts">
-    import type { cityT, tempRegrT, tempT } from "$lib";
     import { dot, line, plot } from "@observablehq/plot";
+
+    type cityT = string;
+    type tempPointT = { city: cityT; decade: number; meanTemp: number };
+    type tempT = tempPointT[];
+    type tempRegrItemT = {
+        city: cityT;
+        yIntercept: number;
+        slope: number;
+        r2: number;
+    };
+    type tempRegrT = tempRegrItemT[];
 
     let {
         city,
@@ -25,10 +35,10 @@
     ) {
         const { city, temp, tempRegr } = params;
 
-        const tempCity = temp.filter((t) => t.city === city);
+        const tempCity = temp.filter((t: tempPointT) => t.city === city);
 
         // We create x and y coordinates to draw a line based on the linear regression.
-        const regressionCity = tempRegr.find((r) => r.city === city);
+        const regressionCity = tempRegr.find((r: tempRegrItemT) => r.city === city);
         if (regressionCity === undefined) {
             throw new Error(`City ${city} not found in tempRegr.`);
         }

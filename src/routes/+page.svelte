@@ -1,273 +1,316 @@
 <script lang="ts">
+  import { onMount, tick } from "svelte";
   import { geoPath, geoMercator } from "d3-geo";
-  import { colorPorGenero } from "$lib/map/color.js";
-  import Select from "../components/Select.svelte";
-  import type { FeatureCollection } from "geojson";
   import { base } from "$app/paths";
+  import LoaderOverlay from "../components/story/LoaderOverlay.svelte";
+  import StoryHeader from "../components/story/StoryHeader.svelte";
+  import {
+    annotateGeojson,
+    getCounterForStep,
+    getStoryStats,
+    getVisibleHighlight,
+    storySteps,
+  } from "$lib/story/model";
 
   let { data } = $props();
 
-  let municipioSeleccionado = $state("Tigre");
-  let geojsonCargado = $state<FeatureCollection | null>(null);
+  const width = 1300;
+  const height = 1100;
+
+  let geojsonCargado = $state<any>(null);
   let cargando = $state(false);
-  // --- DEBUG DE CARGA ---
-  $effect(() => {
-    async function cargarGeojson() {
-      cargando = true;
+  let cargaInicialCompleta = $state(false);
+  let inicioStory = $state(false);
+  let activeStep = $state(0);
 
-      // 1. Creamos el nombre del archivo (ej: "tigre")
-      const nombreArchivo = municipioSeleccionado
-        .toLowerCase()
-        .replace(/\s+/g, "")
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
-
-      try {
-        // 2. IMPORTANTE: Sin barra "/" al principio.
-        // Esto hace que busque en la misma carpeta donde está la web.
-        const res = await fetch(`${nombreArchivo}.geojson`);
-
-        if (res.ok) {
-          geojsonCargado = await res.json();
-          console.log(`✅ ${nombreArchivo} cargado con éxito`);
-        } else {
-          console.error(
-            "❌ No se encontró el archivo:",
-            `${nombreArchivo}.geojson`,
-          );
-          geojsonCargado = null;
-        }
-      } catch (e) {
-        console.error("❌ Error de red:", e);
-      } finally {
-        cargando = false;
-      }
-    }
-    cargarGeojson();
-  });
-  // Mantenemos estas dimensiones internas para D3
-  const width = 1000;
-  const height = 800;
+  let stepNodes: HTMLElement[] = [];
 
   $effect(() => {
     async function cargarGeojson() {
       cargando = true;
-      const nombreArchivo = municipioSeleccionado
-        .toLowerCase()
-        .replace(/\s+/g, "")
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
-
       try {
-        const res = await fetch(`/${nombreArchivo}.geojson`);
-        if (res.ok) {
-          geojsonCargado = await res.json();
-        } else {
-          geojsonCargado = null;
-        }
+        const res = await fetch(`${base}/tigre.geojson`);
+        geojsonCargado = res.ok ? await res.json() : null;
       } catch (e) {
         console.error(e);
+        geojsonCargado = null;
       } finally {
         cargando = false;
+        cargaInicialCompleta = true;
       }
     }
     cargarGeojson();
   });
 
-  let geojsonMunicipio = $derived.by(() => {
-    if (!geojsonCargado || !data.calles) return null;
-    const callesDB = data.calles
-      .filter((c: any) => c.municipio === municipioSeleccionado)
-      .map((c: any) => ({
-        ...c,
-        nombreNorm: (c.nombre || "")
-          .toLowerCase()
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .replace(/\b(avenida|av|calle|pje|dr|dra|grl)\b/g, "")
-          .trim(),
-      }));
-
-    return {
-      ...geojsonCargado,
-      features: geojsonCargado.features.map((f: any) => {
-        const nombreGeo = (f.properties?.name || "")
-          .toLowerCase()
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .trim();
-        const match = callesDB.find(
-          (c) =>
-            nombreGeo &&
-            (nombreGeo.includes(c.nombreNorm) ||
-              c.nombreNorm.includes(nombreGeo)),
-        );
-        return {
-          ...f,
-          properties: {
-            ...f.properties,
-            genero: match ? match.genero : "otro",
-          },
-        };
-      }),
-    };
-  });
+  let geojsonMunicipio = $derived.by(() => annotateGeojson(geojsonCargado, data.calles, "tigre"));
 
   let projection = $derived.by(() => {
     if (!geojsonMunicipio) return null;
     const featuresConNombre = geojsonMunicipio.features.filter(
       (f: any) => f.properties?.name && f.properties.name.trim() !== "",
     );
-    // Agregamos más aire (padding) para que no se pegue a los bordes en el celu
     return geoMercator().fitSize(
-      [width - 80, height - 80],
+      [width - 18, height - 18],
       featuresConNombre.length > 0
-        ? { ...geojsonMunicipio, features: featuresConNombre }
-        : geojsonMunicipio,
+        ? ({ ...geojsonMunicipio, features: featuresConNombre } as any)
+        : (geojsonMunicipio as any),
     );
   });
 
-  let pathGenerator = $derived(
-    projection ? geoPath().projection(projection) : null,
+  let pathGenerator = $derived(projection ? geoPath().projection(projection) : null);
+  let mostrarLoader = $derived(
+    !cargaInicialCompleta || cargando || !geojsonMunicipio || !pathGenerator,
   );
+
+  let features = $derived(geojsonMunicipio?.features ?? []);
+  let stats = $derived(getStoryStats(features));
+  let counter = $derived(getCounterForStep(stats, activeStep));
+  let visiblesHighlight = $derived(getVisibleHighlight(features, activeStep));
+
+  function strokeBase() {
+    if (activeStep >= 4) return "#5e2a34";
+    return "#6b313d";
+  }
+  function strokeWidthBase() {
+    if (activeStep === 0) return 1.15;
+    if (activeStep >= 4) return 0.75;
+    return 1.25;
+  }
+  function strokeWidthHighlight() {
+    if (activeStep < 3) return 1.8;
+    return 2.6;
+  }
+  function strokeColorHighlight() {
+    return "#2f6bff";
+  }
+
+  function setStepRef(node: HTMLElement, index: number) {
+    stepNodes[index] = node;
+    return {
+      destroy() {
+        stepNodes[index] = undefined as unknown as HTMLElement;
+      },
+    };
+  }
+
+  onMount(() => {
+    let observer: IntersectionObserver | null = null;
+
+    window.scrollTo({ top: 0, behavior: "auto" });
+
+    tick().then(() => {
+      observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const index = Number((entry.target as HTMLElement).dataset.step || "0");
+            if (!Number.isNaN(index)) {
+              inicioStory = true;
+              activeStep = index;
+            }
+          });
+        },
+        {
+          threshold: 0.35,
+          rootMargin: "-14% 0px -40% 0px",
+        },
+      );
+
+      stepNodes.forEach((node) => {
+        if (node) observer?.observe(node);
+      });
+    });
+
+    return () => observer?.disconnect();
+  });
 </script>
 
-<div class="page-layout">
-  <header class="selector-container">
-    <Select
-      label="Municipio"
-      id="municipio-select"
-      options={data.municipios}
-      bind:value={municipioSeleccionado}
-    />
-    {#if cargando}
-      <div class="loading-line"></div>
-    {/if}
-  </header>
+{#if mostrarLoader}
+  <LoaderOverlay />
+{/if}
 
-  <main class="map-view">
+<div class="story-page">
+  <section class="map-stage">
     {#if pathGenerator && geojsonMunicipio}
-      <svg viewBox="0 0 {width} {height}" class="responsive-svg">
-        <g class="base-layer">
-          {#each geojsonMunicipio.features.filter((f) => f.properties?.genero === "otro") as feature}
-            <path d={pathGenerator(feature)} class="base-path" />
+      <svg viewBox="0 0 {width} {height}" class="responsive-svg" preserveAspectRatio="xMidYMid slice">
+        <g>
+          {#each features as feature}
+            <path d={pathGenerator(feature as any)} class="base-path" stroke={strokeBase()} stroke-width={strokeWidthBase()} opacity="1" />
           {/each}
         </g>
-        <g class="highlight-layer">
-          {#each geojsonMunicipio.features.filter((f) => f.properties?.genero !== "otro") as feature}
-            <path
-              d={pathGenerator(feature)}
-              class="gender-path"
-              stroke={colorPorGenero(feature.properties?.genero)}
-            />
+
+        <g>
+          {#each visiblesHighlight as feature}
+            <path d={pathGenerator(feature as any)} class="gender-path" stroke={strokeColorHighlight()} stroke-width={strokeWidthHighlight()} />
           {/each}
         </g>
       </svg>
     {/if}
-  </main>
+  </section>
 
-  <footer class="legend-footer">
-    <div class="legend-grid">
-      <div class="item"><span class="bar f"></span> Femenino</div>
-      <div class="item"><span class="bar m"></span> Masculino</div>
-      <div class="item"><span class="bar o"></span> Otro</div>
+  <section class="story-panels" aria-label="Relato del mapa">
+    <StoryHeader showCounter={inicioStory} counter={counter} />
+
+    <div class="story-steps">
+      {#each storySteps as step, index}
+        <article class="story-card" class:active={index === activeStep} data-step={index} use:setStepRef={index}>
+          <h2>{step.title}</h2>
+          <p>{step.message}</p>
+
+          {#if index === 0}
+            <p class="metric">{stats.totalCalles.toLocaleString("es-AR")} trazas totales</p>
+          {:else if index === 1}
+            <p class="metric">{stats.callesConNombre.toLocaleString("es-AR")} calles con nombre detectable</p>
+          {:else if index === 2}
+            <p class="metric">{stats.callesPersona.toLocaleString("es-AR")} calles asociadas a personas</p>
+          {:else}
+            <p class="metric">{stats.callesFemeninas.toLocaleString("es-AR")} calles con nombres femeninos</p>
+          {/if}
+        </article>
+      {/each}
     </div>
-  </footer>
+  </section>
 </div>
 
 <style>
-  /* Sin bloqueos de overflow: scroll natural */
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;700;800&display=swap");
+
   :global(body) {
     margin: 0;
-    padding: 0;
-    background: #fff;
-    font-family: sans-serif;
+    padding: 14px;
+    background: #2a141a;
+    color: #fff4f4;
+    font-family: "Noto Serif", Georgia, serif;
   }
 
-  .page-layout {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 5px;
-    box-sizing: border-box;
-    gap: 20px;
+  .story-page {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(250px, 30vw) 1fr;
+    column-gap: 2px;
+    min-height: 100vh;
   }
 
-  .selector-container {
-    width: 100%;
+  .story-page > section,
+  :global(section) {
+    border: none;
   }
 
-  .map-view {
-    width: 100%;
-    background: white;
-    border-radius: 8px;
+  .map-stage {
+    grid-column: 2;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background: #2a141a;
+    overflow: hidden;
+    border: none;
+  }
+
+  .map-stage::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #2a141a;
+    pointer-events: none;
   }
 
   .responsive-svg {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
   }
 
-  .base-path {
-    fill: none;
-    stroke: #cad2d9;
-    stroke-width: 0.8;
-  }
+  .base-path,
   .gender-path {
     fill: none;
-    stroke-width: 2;
     stroke-linecap: round;
+    transition: stroke 0.7s ease, stroke-width 0.7s ease, opacity 0.7s ease;
   }
 
-  .legend-footer {
-    padding: 20px 0;
-    border-top: 1px solid #eee;
+  .story-panels {
+    grid-column: 1;
+    position: relative;
+    z-index: 2;
+    justify-self: end;
+    width: min(94%, 420px);
+    padding: 1vh 0 12vh 18px;
+    border: none;
   }
 
-  .legend-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  .story-steps {
+    margin-top: 18vh;
   }
 
-  .item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.9rem;
-  }
-  .bar {
-    width: 30px;
-    height: 5px;
-    border-radius: 2px;
-  }
-  .bar.f {
-    background: #fc68c3;
-  }
-  .bar.m {
-    background: #5672fb;
-  }
-  .bar.o {
-    background: #eee;
+  .story-card {
+    min-height: 58vh;
+    margin-bottom: 16vh;
+    padding: 6px 8px;
+    border: none;
+    background: transparent;
+    color: #fff0f1;
+    transition: opacity 700ms ease;
+    opacity: 0.5;
   }
 
-  .loading-line {
-    height: 2px;
-    background: #ff00ff;
-    width: 100%;
-    margin-top: 8px;
-    animation: pulse 1s infinite alternate;
+  .story-card.active {
+    opacity: 1;
   }
-  @keyframes pulse {
-    from {
-      opacity: 0.3;
+
+  h2 {
+    margin: 0;
+    font-size: clamp(1.2rem, 3vw, 1.7rem);
+    line-height: 1.05;
+    color: #fff7f7;
+    font-family: "Noto Serif", Georgia, serif;
+  }
+
+  .story-card p {
+    margin-top: 6px;
+    margin-bottom: 0;
+    line-height: 1.3;
+    font-size: 0.95rem;
+    color: #fff7f7;
+  }
+
+  .metric {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #a8c5ff;
+    font-weight: 600;
+  }
+
+  @media (max-width: 720px) {
+    :global(body) {
+      padding: 8px;
     }
-    to {
-      opacity: 1;
+
+    .story-page {
+      display: block;
+    }
+
+    .map-stage {
+      height: 100svh;
+    }
+
+    .story-panels {
+      margin-top: -100svh;
+      padding-top: 34svh;
+      padding-inline: 10px;
+      width: auto;
+    }
+
+    .story-steps {
+      margin-top: 26vh;
+    }
+
+    .story-card {
+      min-height: 42svh;
+      margin-bottom: 16svh;
+      padding: 8px;
+      text-align: center;
     }
   }
 </style>
