@@ -5,24 +5,24 @@ export type StoryStep = {
 
 export const storySteps: StoryStep[] = [
   {
-    title: "En zona norte hay muchas calles",
-    message: "En zona norte hay x cantidad de calles.",
+    title: "en zona norte hay 5.945 calles",
+    message: "",
   },
   {
-    title: "¿Cuántas son de personas?",
-    message: "Tantas son dedicadas a personas.",
+    title: "2.335 de ellas tienen nombre de persona",
+    message: "",
   },
   {
-    title: "La mayoría: hombres",
-    message: "Tantas de ellas están dedicadas a hombres.",
+    title: "2.242 calles, el 96% del total están dedicadas a hombres",
+    message: "",
   },
   {
-    title: "Muy pocas: mujeres",
-    message: "Mientras que solo tantas de ellas están dedicadas a mujeres.",
+    title: "Solo 93 de ellas tienen el nombre de alguna mujer",
+    message: "",
   },
   {
-    title: "¿Quiénes fueron?",
-    message: "Quienes fueron?",
+    title: "¿Querés conocerlas?",
+    message: "",
   },
 ];
 
@@ -111,8 +111,12 @@ export function getStoryStats(features: StoryFeature[]) {
   const totalCalles = features.length;
   const callesConNombre = features.filter((f) => f.properties?.hasName).length;
   const callesPersona = features.filter((f) => f.properties?.matched).length;
-  const callesMasculinas = features.filter((f) => f.properties?.genero === "M").length;
-  const callesFemeninas = features.filter((f) => f.properties?.genero === "F").length;
+  const callesMasculinas = features.filter(
+    (f) => f.properties?.genero === "M",
+  ).length;
+  const callesFemeninas = features.filter(
+    (f) => f.properties?.genero === "F",
+  ).length;
   return {
     totalCalles,
     callesConNombre,
@@ -156,7 +160,10 @@ export function getCounterForStep(
   };
 }
 
-export function getVisibleHighlight(features: StoryFeature[], activeStep: number) {
+export function getVisibleHighlight(
+  features: StoryFeature[],
+  activeStep: number,
+) {
   if (activeStep === 0) {
     return features;
   }
@@ -185,7 +192,5 @@ export function getWomenGallery(calles: any[], max = 24) {
       byName.get(nombre)!.calles += 1;
     });
 
-  return [...byName.values()]
-    .sort((a, b) => b.calles - a.calles)
-    .slice(0, max);
+  return [...byName.values()].sort((a, b) => b.calles - a.calles).slice(0, max);
 }
