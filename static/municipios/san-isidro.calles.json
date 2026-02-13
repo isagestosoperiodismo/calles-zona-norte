@@ -1,0 +1,1532 @@
+﻿[
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "OLAZABAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SARRATEA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GURRUCHAGA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MARIA B DE CAZON",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "TOMAS DE ANCHORENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FIGUEROA ALCORTA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LUIS MARIA CAMPOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ANDRADE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GREGORIA M DE SAN MARTIN",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CAP JUAN DE SAN MARTIN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALMTE BETBEDER",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CARLOS TEJEDOR",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MOISES LEBENSOHN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GDOR ARANA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "VALENTIN VERGARA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MATHEU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MANSILLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RAMON FALCON",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL VILLEGAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL HILARIO LAGOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MONROE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BLANCO ENCALADA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MEDRANO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ANTONIO SAENZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL GUIDO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CNL BOGADO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PENALOZA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CNL JOSE M CASTILLO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN B JUSTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "WARNES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GODOY CRUZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CMTE LUIS PIEDRABUENA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GDOR UDAONDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "VIRREY VERTIZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MARTIN RODRIGUEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "TGRL LONARDI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BOEDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PIEDRABUENA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "O\u0027HIGGINS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL MOSCONI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SUCRE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "NICOLAS AVELLANEDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ARAOZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LUIS MARIA DRAGO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FRANCISCO BEIRO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "VIAMONTE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL LAMADRID",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GERVASIO A POSADAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN S FERNANDEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MANUELITA ROSAS",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MARCOS PAZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LAPRIDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LARREA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BLAS PARERA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOHN F KENNEDY",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BERNABE MARQUEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CLEMENTE ONELLI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CNL CETZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALSINA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LINIERS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "TUPAC AMARU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL ALVARADO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ZAPIOLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DR MARIANO MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL MANUEL BELGRANO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FRENCH",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "HIPOLITO YRIGOYEN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RIVADAVIA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALFEREZ HIPOLITO BOUCHARD",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CNL DORREGO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RODRIGUEZ PENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SEBASTIAN GABOTO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PRES ROCA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BARTOLOME MITRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL PAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BOLIVAR",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN BAUTISTA ALBERDI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PRES URIBURU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "TGRL ARAMBURU",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LLAVALLOL",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "WASHINGTON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CASTRO BARROS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PRINGLES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PEDRO DE MENDOZA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL PIRAN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RONDEAU",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FRAY LUIS BELTRAN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CASTELLI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOSE PENNA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GABOTO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "AZCUENAGA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MANUEL BASAVILBASO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SAAVEDRA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MONTEAGUDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BOUCHARDO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALMTE BROWN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CNL FRANCISCO UZAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BELGRANO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL HORNOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FRAY JUSTO SARMIENTO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SGT CABRAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LEANDRO N ALEM",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ROQUE SAENZ PENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LUIS SAENZ PENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CARLOS PELLEGRINI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALMTE GUERRICO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MAGALLANES",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LUIS VERNET",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALBARELLOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL URQUIZA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL GUEMES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL PUEYRREDON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ARENALES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CNL ROSALES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "VIEYTES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL PAUNERO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "OLAGUER Y FELIU",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN DIAZ DE SOLIS",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SEBASTIAN ELCANO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "EMILIO MITRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOSE C PAZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ARISTOBULO DEL VALLE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SARMIENTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL ALVEAR",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN JOSE PASSO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GRL PACHECO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GUILLERMO RAWSON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BALCARCE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PRES QUINTANA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "EDUARDO MADERO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN DE GARAY",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CASARES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PERDRIEL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MSTRA V RAVELO",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PADRE CASTIGLIA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DR RAUL BAGNATI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "P MARIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "AGUADO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "M LAINEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MAESTRA JUANA RUEDA",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CURA ALLIEVI",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PABLO A ABRIATA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "INT TIRIGAL",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PADRE ACEVEDO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RAMOS MEJIA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "IGR MARCONI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FRAY MAMERTO ESQUIU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MONS ANDRES CALCAGNO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOSE INGENIEROS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "E WILDE",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BARTOLOME NOVARO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "J A MAZZA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "INT TOMKINSON",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PERITO MORENO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOSE M VERDUGA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LUIS MARIA DRAGO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JACINTO DIAZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "COSME ARGERICH",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MSTRO GRANADA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MSTRA MANUELA GARCIA",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "OBISPO TERRERO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ROBERTO WERNICKE",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "D SAVIO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "F SANCHEZ",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "VON WERNICKE",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "IGR BERGALLO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MAGLIANO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DR FRANCISCO ACTIS",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CARDENAL COPELLO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MSTRO FRANCISCO SILVA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PREBISTERO PUEYRREDON",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MARIANO EZPELETA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "H DUNANT",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MONS LARUMBE",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "INT BECCO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "EDISON",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "INT O WILLIAMS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SIR ALEXANDER FLEMING",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DR PESTANA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MSTRA ELIZARRAGUE",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MONS ALBERTI",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FLORENTINO AMEGHINO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "INT INDART",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "INT APHALO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN BAUTISTA DE LA SALLE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "STEPHENSON",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BECCAR VARELA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MONS DE ANDREA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "OCTAVIO BUNGE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LELOIR",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FRANCISCO J MUNIZ",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PASTEUR",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DELFIN GALLO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "S SEGUROLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "M OBARRIO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MANUEL ESTRADA / JOSE M ESTRADA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CERVANTES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "AGUADO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "CARLOS GARDEL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DARREGUEIRA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ANDRES LOMAS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "THAMES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "TGRL LONARDI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "J E RODO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DEL VALLE IBERLUCEA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "LOPE DE VEGA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "EMILIO ZOLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "M CESPEDES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BARBOSA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN P ESNAOLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RIVERA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RAUL SCALABRINI ORTIZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOAQUIN V GONZALEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MIGUEL CANE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "COLOMBRES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JORGE NEWBERY",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "F BERRA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ANATOLE FRANCE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "M LEZICA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "A ALVAREZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DARDO ROCHA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GERVASIO MENDEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GARCIA MEROU",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "R TAGORE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FLORENCIO VARELA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOSE MARTI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALFREDO BELLOCQ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "FEDERICO CHOPIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "COSME BECCAR",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MARTIN Y OMAR",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MSTRO SANCHEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "M T DE MENDEVILLE",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOSE MARMOL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ASCASUBI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ENRIQUE S DISCEPOLO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RAFAEL OBLIGADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "OLEGARIO ANDRADE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GUIDO Y SPANO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "GALILEO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DARWIN",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MARTIN FIERRO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "BELISARIO ROLDAN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "DEL BARCO CENTENERA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "VICTORIA AGUIRRE",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ESTEBAN ECHEVERRIA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JOSE HERNANDEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "JUAN C VARELA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "MARTIN CORONADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RICARDO GUIRALDES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "ALMAFUERTE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "RICARDO GUTIERREZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "VICENTE F LOPEZ / LOPEZ Y PLANES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "PEDRO GOYENA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "san-isidro",
+        "nombre":  "SEGUNDO SOMBRA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    }
+]

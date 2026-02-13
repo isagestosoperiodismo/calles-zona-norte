@@ -1,22 +1,34 @@
-<<<<<<< HEAD
-# calles-zona-norte
-=======
-This repository has been created with [setup-sda](https://github.com/nshiab/setup-sda/).
+﻿# Calles Zona Norte
 
-It's using [simple-data-analysis](https://github.com/nshiab/simple-data-analysis), [journalism](https://github.com/nshiab/journalism), and others great open-source librairies with [SvelteKit](https://svelte.dev/docs/kit/introduction).
+Proyecto SvelteKit + Deno para visualizar nombres de calles en municipios de Zona Norte.
 
-Here's the recommended workflow:
+## Requisitos
+- Deno instalado y disponible en PATH.
 
-- Put your raw data in the `sda/data` folder. Note that this folder is gitignored.
-- Use the `sda/main.ts` file to clean and process your raw data. Write the results to the `src/data` or `static/` folders.
-- Import your processed data from the `src/data` folder into the `src/routes/+page.svelte` or fetch it with `src/routes/+page.ts`.
-- Use the data for your content.
+## Desarrollo
+```powershell
+deno task dev
+```
+Abrir `http://localhost:5173`.
 
-When working on your project, you can use the following commands:
+## Checks
+```powershell
+deno task check
+```
 
-- `deno task sda` will watch your `sda/main.ts` and its dependencies. Everytime you'll save some changes, the data will be reprocessed.
-- `deno task dev` will start a local server and watch all `src/*` files and their dependencies. Everytime you'll save some changes or the data is reprocessed, the content will be updated.
+## Build
+```powershell
+deno task build
+```
 
-By opening two terminals each running one of the above commands, you'll be able to work on your project with a live preview of your content and data.
-  
->>>>>>> eb10d7a (initial commit)
+## Estructura de datos
+- `static/municipios/resumen.json`: resumen por municipio.
+- `static/municipios/tigre.calles.json`: dataset de calles para cruces de Tigre.
+- `static/tigre.geojson`: geometria base de Tigre.
+
+## Paginas
+- `/`: scrollytelling sobre mapa de Tigre + indice de municipios (solo Tigre activo).
+- `/tigre/`: detalle editorial del mapa de Tigre con calles de mujeres interactivas.
+
+## Documentacion tecnica
+Ver `docs/ARCHITECTURE.md`.

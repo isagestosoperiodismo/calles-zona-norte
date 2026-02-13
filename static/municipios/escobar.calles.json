@@ -1,0 +1,2342 @@
+﻿[
+    {
+        "municipio":  "escobar",
+        "nombre":  "Juan Leï¿½n",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Nazzarre",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Hipï¿½lito Yrigoyen",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Sarmiento (Faustino / Av.)",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Basilico",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Conde de Turï¿½n",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Alborno",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Murillo",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Marconi",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Asborno",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Gallou",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Vallier",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Juan Mermoz",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Francisco Lauria",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Sabin",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Belï¿½n",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Grl. Lamadrid",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Capello",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Luis Pasteur",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Grl. Gï¿½emes",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Sanguinetti",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "San Martï¿½n",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Ameghino",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Vï¿½ctor Hugo",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Almafuerte",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Juan XXIII",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Rizzutti",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Juan Gnemmi",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Pablo Podestï¿½",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Cervantes",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Charlone",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "De Falias",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Grl. Lemos",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Aguado",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Baigorria",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Grl. Arenales",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Ceferino Namuncurï¿½",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Grl. Alvarado",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Tintoretto",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Lï¿½pez Campos",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "San Genaro",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Brown",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Corot",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "san-isidro",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Melo",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Bartolomï¿½ Mitre",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Tabarï¿½",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Santa Teresita / Santa Marta / etc.",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Beltrï¿½n",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Manuel Savio",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Segovia",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Chapurua",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Muï¿½iz",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Fructuoso Dï¿½az",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Ricardo Gutiï¿½rrez",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Tï¿½pac Amaru",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Grl. Lavalle",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Falco",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Perito Moreno",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Bedoya",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Blas Parera",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Anahï¿½",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Sucre",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Luis Ressio",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Magallanes",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Chacho Peï¿½aloza",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Nï¿½ï¿½ez",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Belgrano",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "O\u0027Higgins",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Amenï¿½bar",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Cigliutti",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Garibaldi",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Carranza",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Inocencio Arias",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Colombres",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Fernï¿½ndez",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Lavagnino",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Falucho",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Henry Ford",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Presidente Perï¿½n",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Villanueva",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Aranzaza",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "San Pablo",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Serra",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Aguirre",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Soldrini",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Lanzoni",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Pascal",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Andrade",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Don Orione",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Almonacid",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Piedrabuena",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Zabala",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "San Javier",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Osvaldo E. Cigliutti",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Boote",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Crio. Naval Almonacid",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "Sarmiento (Faustino)",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "J BORGES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LEGUIZAMO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GARAY",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SARMIENTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LISANDRO DE LA TORRE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RICARDO ROJAS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "REPETTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JORGE AGUILA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PALACIOS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LOS GRANADEROS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRL PAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LOS PATRICIOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LONGHI",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DOMINGO MATHEU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SALVADOR MERLO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RIVADAVIA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "HIPOLITO YRIGOYEN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAAVEDRA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUAN B JUSTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DORREGO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ENRIQUE CAPELLO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CASTELLI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "URQUIZA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VELEZ SARFIELD",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MIGUEL ANGEL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN BENITO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DR HORACIO CANESSI",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN MARTIN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUAN B ALBERDI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VICENTE LOPEZ Y PLANES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SEBASTIAN PORTILLO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MERCANTE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALVEAR",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "AQUILINO MARQUEZ",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "QUINQUELA MARTIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BANCALARI",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ANTONIO CANEVARI",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ESTEBAN ECHEVERRIA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MITRE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LEANDRO N ALEM",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CBO 1 SULLING",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PUEYRREDON",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LAVALLE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALMTE BROWN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "COLON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JOSE MARIA PAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN FRANCISCO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JORGE SOSA",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "HUMBERTO PRIMO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DUQUE DE GENOVA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VICTOR MANUEL III",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DUQUE DE AOSTA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "REINA ELENA",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN RAMON",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LINIERS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "REINA MAFALDA",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BERNARDO DE IRIGOYEN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ARTIGAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN ANTONIO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VICTOR MANUEL II",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUAN J PASO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "REINA YOLANDA",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALBERTO CONDE",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SANTO DOMINGO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "REINA MARGARITA",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN ALEJANDRO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN AGUSTIN",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SANTA ANGELA",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PIAZZOLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SGT CABRAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PRINCIPE DE PIAMONTE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SANTA RITA",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PEIRANO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN VICENTE",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PRINCESA GIOVANNA",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SAN CARLOS",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BOLIVAR",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CESAR DIAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MANSILLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DUQUE DE ABRUZZI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ESTRADA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SANTA MAGDALENA",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "EUGENIA TAPIA DE CRUZ",
+        "genero":  "F",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DURERO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "HERNANDEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CARLOS V",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARTIN FIERRO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GALILEO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FELIPE BOERO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RAFAEL DE URBINO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRL LAPRIDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LEONARDO DA VINCI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "OLAZABAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "TIZIANO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CARLOS PELLEGRINI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "REMEDIOS DE ESCALADA",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BRAMONTE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SPADACINI",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MIGUEL CANE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DR TRAVI",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "AZCUENAGA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MATEO GELVES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALBERDI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "INT O LARGHI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PATRICIAS MENDOCINAS",
+        "genero":  "F",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DON BOSCO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "NICOLAS PALADINO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FRAY MAMERTO ESQUIU",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CLEMENTE XIV",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PIO XII",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LEON XIII",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BENEDICTO XV",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PIO XI",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GREGORIO XVI",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MANUEL DE FALLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DEBUSSY",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RAVEL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VERDI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ROSSINI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CHOPIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MOZART",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BEETHOVEN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SCHUMANN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BACH",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MENDELSSOHN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LISZT",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "TOSCANINI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "WAGNER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BERLIOZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PUCCINI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PAGANINI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "STRAUSS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VIVALDI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DONIZETTI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SCHUBERT",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BIZET",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MASSENET",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GOUNOD",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RIMSKY KORSAKOV",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MUSSORGSKY",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BORODIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BRAHMS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GLINKA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CHAIKOVSKY",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL MANUEL SAVIO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GREGORIO DE LAFERRERE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALICIA MOREAU DE JUSTO",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GONZALEZ FRUTOS",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ARQUIMEDES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LUCIA PARAVI",
+        "genero":  "F",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BOTTICELLI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SGT LEMOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "EINSTEIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "EL GRECO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RAFAEL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "NEWTON",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PEDRO NIETO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RAMON CASTILLA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DIEGO VELAZQUEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JORGE GUILLEN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MODIGLIANI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALBERT SCHWEITZER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CNL PRINGLES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ANTON VAN DICK",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JOHN F KENNEDY",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GOYA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VAN GOGH",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUAN BELIERA",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ABRAHAM LINCOLN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "REMBRANT",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RAFAEL OBLIGADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FLORENCIO SANCHEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PAUL HARRIS",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "OLEGARIO V ANDRADE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALFONSINA STORNI",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUANA AZURDUY",
+        "genero":  "F",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LEOPOLDO LUGONES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FERNANDO HUGO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GUSTAVO A BECQUER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FELIPE FLINT",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "HORACIO QUIROGA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MONTEAGUDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VICTOR CASTERAN",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FRENCH",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RUBEN DARIO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CESAR OLIVERA",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ZORRILLA DE SAN MARTIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SOLDI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VICENTE LOPEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALBERTI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FRUCTUOSO DIAZ",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MANUEL QUINTANA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARIANO BOEDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL LAS HERAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL CONESA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRL O\u0027HIGGINS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MATHEU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALVAR NUï¿½EZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BERUTTI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LARREA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DARDO ROCHA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CNL DIAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DEAN FUNES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FLORENCIO VARELA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GUIDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "J M DE ROSAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARIANO MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RAWSON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SOLER",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "VIEYTES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ZAPIOLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BERMUDEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LAMADRID",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LAS HERAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PICO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "QUINTANA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FRAY JUSTO STA MARIA DE ORO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LAPRIDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GORRITI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CNL OLAVARRIA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARIANO ACHA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MANUEL LEIVA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL PACHECO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARIANO FRAGUEIRO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CNL MOM",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CNL BRANDSEN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ESTIVAO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FRAY LUIS BELTRAN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DR MARIANO MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DR MARIANO BOEDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CASTRO BARROS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PASO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL VIAMONTE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARTIN RODRIGUEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BALCARCE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CNL PIRAN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CARLOS DELCASSE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JOSE HERNANDEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MACEO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CHICLANA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL LAMADRID",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL LAVALLE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL PAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL ROCA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRAL GUEMES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALEM",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARIO DUTTO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "EVARISTO CARRIEGO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GABRIELA MISTRAL",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUAN DIAZ DE SOLIS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MARTIN CORONADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUAN DE GARAY",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BUFANO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PEDRO DE MENDOZA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SEBASTIAN GABOTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "TOMAS MARQUEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SEBASTIAN ELCANO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PEDRO BALLESTER",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PABLO LAMBERTI",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ANDRES BELLO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CJAL LARROCA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PADRE PERNA",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "SCALABRINI ORTIZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "TOMAS ESPORA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PRESIDENTE PERON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RASTREADOR FOURNIER",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PABLO MARIN",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ROENTGEN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "EVA PERON",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "FELIX FRIAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MANUELA PEDRAZA",
+        "genero":  "F",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "EMILIO LAMARCA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CAYETANO BOURDET",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "DR DUPUY",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "cultura",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "MATEO CHURICH",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GRL BELGRANO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "WILLIAMS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LUIS MARIA DRAGO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "PABLO CASTELAR",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JOSE RUCCI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LUIS TURON",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "BERNARDO HOUSSAY",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "JUAN RAMON FERNANDEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "NICANOR CABOT",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GASPAR CAMPOS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "GUIDO Y SPANO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "LUIS SALVO",
+        "genero":  "M",
+        "categoria":  "otras ï¿½reas"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "CRIO NAVAL ALMONACID",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "RAMON CABOT",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "escobar",
+        "nombre":  "ALBERT EINSTEIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    }
+]

@@ -1,58 +1,93 @@
-<script lang="ts">
+﻿<script lang="ts">
   import { onMount, tick } from "svelte";
   import { geoPath, geoMercator } from "d3-geo";
   import { base } from "$app/paths";
-  import LoaderOverlay from "../components/story/LoaderOverlay.svelte";
-  import StoryHeader from "../components/story/StoryHeader.svelte";
-  import {
-    annotateGeojson,
-    getCounterForStep,
-    getStoryStats,
-    getVisibleHighlight,
-    storySteps,
-  } from "$lib/story/model";
+  import { annotateGeojson } from "$lib/story/model";
+
+  type MunicipioResumen = {
+    slug: string;
+    nombre: string;
+    total: number;
+    hombres: number;
+    mujeres: number;
+    personas: number;
+    porcentajeHombres: number;
+    porcentajeMujeres: number;
+  };
 
   let { data } = $props();
 
-  const width = 1300;
-  const height = 1100;
+  const stageWidth = 1300;
+  const stageHeight = 1100;
 
-  let geojsonCargado = $state<any>(null);
-  let cargando = $state(false);
-  let cargaInicialCompleta = $state(false);
-  let inicioStory = $state(false);
+  const storySteps = [
+    {
+      title: "Que dicen los nombres de calles en Zona Norte",
+      message: "Mapa real de Tigre como fondo del relato.",
+    },
+    {
+      title: "2.335 calles de personas",
+      message: "Calles con nombres dedicados a personas sobre el total.",
+    },
+    {
+      title: "2.242 calles de hombres",
+      message: "La mayor parte de los homenajes sigue concentrada en varones.",
+    },
+    {
+      title: "93 calles de mujeres",
+      message: "La presencia femenina aparece, pero en una proporcion menor.",
+    },
+    {
+      title: "Indice de municipios",
+      message: "",
+    },
+  ];
+
   let activeStep = $state(0);
-
   let stepNodes: HTMLElement[] = [];
+  let tigreGeojson = $state<any>(null);
 
-  $effect(() => {
-    async function cargarGeojson() {
-      cargando = true;
-      try {
-        const res = await fetch(`${base}/tigre.geojson`);
-        geojsonCargado = res.ok ? await res.json() : null;
-      } catch (e) {
-        console.error(e);
-        geojsonCargado = null;
-      } finally {
-        cargando = false;
-        cargaInicialCompleta = true;
-      }
-    }
-    cargarGeojson();
+  let resumen = $derived.by(() => (data.resumen as MunicipioResumen[]) ?? []);
+
+  let municipiosIndex = $derived.by(() => {
+    const wanted = [
+      "tigre",
+      "pilar",
+      "escobar",
+      "san-isidro",
+      "vicente-lopez",
+      "san-fernando",
+      "malvinas-argentinas",
+      "zona-norte",
+    ];
+    const bySlug = new Map(resumen.map((item) => [item.slug, item]));
+
+    return wanted
+      .map((slug) => bySlug.get(slug))
+      .filter(Boolean)
+      .map((item) => {
+        const row = item as MunicipioResumen;
+        return {
+          ...row,
+          label: prettifyName(row.nombre, row.slug),
+          disabled: true,
+        };
+      });
   });
 
   let geojsonMunicipio = $derived.by(() =>
-    annotateGeojson(geojsonCargado, data.calles, "tigre"),
+    annotateGeojson(tigreGeojson, data.tigreCalles, "tigre"),
   );
 
   let projection = $derived.by(() => {
     if (!geojsonMunicipio) return null;
+
     const featuresConNombre = geojsonMunicipio.features.filter(
       (f: any) => f.properties?.name && f.properties.name.trim() !== "",
     );
+
     return geoMercator().fitSize(
-      [width - 18, height - 18],
+      [stageWidth - 20, stageHeight - 20],
       featuresConNombre.length > 0
         ? ({ ...geojsonMunicipio, features: featuresConNombre } as any)
         : (geojsonMunicipio as any),
@@ -62,30 +97,44 @@
   let pathGenerator = $derived(
     projection ? geoPath().projection(projection) : null,
   );
-  let mostrarLoader = $derived(
-    !cargaInicialCompleta || cargando || !geojsonMunicipio || !pathGenerator,
-  );
 
-  let features = $derived(geojsonMunicipio?.features ?? []);
-  let stats = $derived(getStoryStats(features));
-  let counter = $derived(getCounterForStep(stats, activeStep));
-  let visiblesHighlight = $derived(getVisibleHighlight(features, activeStep));
+  let tigreFeatures = $derived(geojsonMunicipio?.features ?? []);
+  let storyHighlightFeatures = $derived.by(() => {
+    if (activeStep === 0) return tigreFeatures;
+    if (activeStep === 1) return tigreFeatures.filter((f: any) => f.properties?.matched);
+    if (activeStep === 2) return tigreFeatures.filter((f: any) => f.properties?.genero === "M");
+    return tigreFeatures.filter((f: any) => f.properties?.genero === "F");
+  });
 
-  function strokeBase() {
-    if (activeStep >= 4) return "#5e2a34";
-    return "#6b313d";
+  let storyBasePaths = $derived.by(() => {
+    if (!pathGenerator) return [];
+    return tigreFeatures
+      .map((feature: any) => ({ d: pathGenerator(feature as any) }))
+      .filter((item: any) => Boolean(item.d));
+  });
+
+  let storyHighlightPaths = $derived.by(() => {
+    if (!pathGenerator) return [];
+    return storyHighlightFeatures
+      .map((feature: any) => ({ d: pathGenerator(feature as any) }))
+      .filter((item: any) => Boolean(item.d));
+  });
+
+  function prettifyName(nombre: string, slug: string): string {
+    if (slug === "zona-norte") return "Zona Norte";
+    return (nombre || slug)
+      .replace(/-/g, " ")
+      .trim()
+      .split(" ")
+      .filter(Boolean)
+      .map((part) => part[0].toUpperCase() + part.slice(1).toLowerCase())
+      .join(" ");
   }
-  function strokeWidthBase() {
-    if (activeStep === 0) return 1.15;
-    if (activeStep >= 4) return 0.75;
-    return 1.25;
-  }
-  function strokeWidthHighlight() {
-    if (activeStep < 3) return 1.8;
-    return 2.6;
-  }
-  function strokeColorHighlight() {
-    return "#2f6bff";
+
+  function storyStrokeColor(): string {
+    if (activeStep <= 1) return "#c94758";
+    if (activeStep === 2) return "#b13645";
+    return "#ff7a86";
   }
 
   function setStepRef(node: HTMLElement, index: number) {
@@ -97,28 +146,29 @@
     };
   }
 
+  async function ensureTigreGeojson() {
+    if (tigreGeojson) return;
+    const res = await fetch(`${base}/tigre.geojson`);
+    tigreGeojson = res.ok ? await res.json() : null;
+  }
+
   onMount(() => {
     let observer: IntersectionObserver | null = null;
 
-    window.scrollTo({ top: 0, behavior: "auto" });
+    ensureTigreGeojson();
 
     tick().then(() => {
       observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             if (!entry.isIntersecting) return;
-            const index = Number(
-              (entry.target as HTMLElement).dataset.step || "0",
-            );
-            if (!Number.isNaN(index)) {
-              inicioStory = true;
-              activeStep = index;
-            }
+            const index = Number((entry.target as HTMLElement).dataset.step || "0");
+            if (!Number.isNaN(index)) activeStep = index;
           });
         },
         {
           threshold: 0.35,
-          rootMargin: "-14% 0px -40% 0px",
+          rootMargin: "-12% 0px -42% 0px",
         },
       );
 
@@ -131,215 +181,252 @@
   });
 </script>
 
-{#if mostrarLoader}
-  <LoaderOverlay />
-{/if}
-
-<div class="story-page">
-  <section class="map-stage">
+<section class="scrolly-stage" aria-label="Scrollytelling Tigre">
+  <div class="map-stage">
     {#if pathGenerator && geojsonMunicipio}
-      <svg
-        viewBox="0 0 {width} {height}"
-        class="responsive-svg"
-        preserveAspectRatio="xMidYMid slice"
-      >
+      <svg viewBox="0 0 {stageWidth} {stageHeight}" class="backdrop-svg" preserveAspectRatio="xMidYMid meet">
+        <rect x="0" y="0" width={stageWidth} height={stageHeight} fill="#2a141a" />
+
         <g>
-          {#each features as feature}
-            <path
-              d={pathGenerator(feature as any)}
-              class="base-path"
-              stroke={strokeBase()}
-              stroke-width={strokeWidthBase()}
-              opacity="1"
-            />
+          {#each storyBasePaths as item}
+            <path d={item.d} class="story-base" />
           {/each}
         </g>
 
         <g>
-          {#each visiblesHighlight as feature}
-            <path
-              d={pathGenerator(feature as any)}
-              class="gender-path"
-              stroke={strokeColorHighlight()}
-              stroke-width={strokeWidthHighlight()}
-            />
+          {#each storyHighlightPaths as item}
+            <path d={item.d} class="story-highlight" stroke={storyStrokeColor()} />
           {/each}
         </g>
       </svg>
     {/if}
-  </section>
+  </div>
 
-  <section class="story-panels" aria-label="Relato del mapa">
-    <StoryHeader showCounter={inicioStory} {counter} />
-
-    <div class="story-steps">
-      {#each storySteps as step, index}
-        <article
-          class="story-card"
-          class:active={index === activeStep}
-          data-step={index}
-          use:setStepRef={index}
-        >
-          <h2>{step.title}</h2>
+  <div class="story-panels" aria-label="Paneles del relato">
+    {#each storySteps as step, index}
+      <article class="story-card" class:active={index === activeStep} data-step={index} use:setStepRef={index}>
+        <h2>{step.title}</h2>
+        {#if step.message}
           <p>{step.message}</p>
+        {/if}
+      </article>
+    {/each}
+  </div>
+</section>
 
-          {#if index === 0}
-            <p class="metric"></p>
-          {:else if index === 1}
-            <p class="metric"></p>
-          {:else if index === 2}
-            <p class="metric"></p>
+<section class="municipios-index" aria-label="Indice de municipios">
+  <div class="index-frame">
+    <div class="index-map-line" aria-hidden="true"></div>
+
+    <div class="index-columns">
+      {#each municipiosIndex as row}
+        <div class="index-row" class:disabled={row.disabled}>
+          {#if row.slug === "tigre" && !row.disabled}
+            <a href={`${base}/tigre/`} class="index-link">{row.label}</a>
           {:else}
-            <p class="metric"></p>
+            <span class="index-link muted">{row.label}</span>
           {/if}
-        </article>
+          <span class="meta">{row.porcentajeMujeres}% calles de mujeres</span>
+        </div>
       {/each}
     </div>
-  </section>
-</div>
+  </div>
+</section>
 
 <style>
-  @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;700;800&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&display=swap");
 
   :global(body) {
     margin: 0;
-    padding: 14px;
     background: #2a141a;
     color: #fff4f4;
-    font-family: "Noto Serif", Georgia, serif;
+    font-family: "Source Sans 3", sans-serif;
   }
 
-  .story-page {
+  .scrolly-stage {
     position: relative;
-    display: grid;
-    grid-template-columns: minmax(250px, 30vw) 1fr;
-    column-gap: 2px;
-    min-height: 100vh;
-  }
-
-  .story-page > section,
-  :global(section) {
-    border: none;
+    min-height: 420vh;
   }
 
   .map-stage {
-    grid-column: 2;
     position: sticky;
     top: 0;
     height: 100vh;
-    background: #2a141a;
+    z-index: 0;
+    display: grid;
+    place-items: center;
     overflow: hidden;
-    border: none;
-  }
-
-  .map-stage::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
     background: #2a141a;
-    pointer-events: none;
   }
 
-  .responsive-svg {
-    width: 100%;
-    height: 100%;
+  .backdrop-svg {
+    width: min(96vw, 1400px);
+    height: min(95vh, 1020px);
     display: block;
   }
 
-  .base-path,
-  .gender-path {
+  .story-base,
+  .story-highlight {
     fill: none;
     stroke-linecap: round;
-    transition:
-      stroke 0.7s ease,
-      stroke-width 0.7s ease,
-      opacity 0.7s ease;
+    stroke-linejoin: round;
+  }
+
+  .story-base {
+    stroke: #4b2630;
+    stroke-width: 0.95;
+    opacity: 0.9;
+  }
+
+  .story-highlight {
+    stroke-width: 1.8;
+    transition: stroke 420ms ease;
   }
 
   .story-panels {
-    grid-column: 1;
-    position: relative;
+    position: absolute;
+    inset: 0;
     z-index: 2;
-    justify-self: end;
-    width: min(94%, 420px);
-    padding: 1vh 0 12vh 18px;
-    border: none;
-  }
-
-  .story-steps {
-    margin-top: 18vh;
+    display: grid;
+    grid-template-columns: minmax(0, 780px);
+    justify-content: center;
+    align-content: start;
+    justify-items: center;
+    padding: 0 16px;
+    pointer-events: none;
   }
 
   .story-card {
-    min-height: 58vh;
+    pointer-events: none;
+    min-height: 88vh;
     margin-bottom: 16vh;
-    padding: 6px 8px;
-    border: none;
+    width: min(92vw, 900px);
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
     background: transparent;
-    color: #fff0f1;
-    transition: opacity 700ms ease;
-    opacity: 0.5;
+    opacity: 0.3;
+    transition: opacity 320ms ease;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
   }
 
   .story-card.active {
     opacity: 1;
   }
 
-  h2 {
+  .story-card h2 {
     margin: 0;
-    font-size: clamp(1.2rem, 3vw, 1.7rem);
+    font-size: clamp(2.2rem, 6.2vw, 5rem);
     line-height: 1.05;
-    color: #fff7f7;
-    font-family: "Noto Serif", Georgia, serif;
+    color: #fff4f5;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-wrap: balance;
+    text-shadow: none;
+    -webkit-text-stroke: 0 transparent;
   }
 
   .story-card p {
-    margin-top: 6px;
-    margin-bottom: 0;
-    line-height: 1.3;
-    font-size: 0.95rem;
-    color: #fff7f7;
+    margin-top: 14px;
+    font-size: clamp(1rem, 1.8vw, 1.25rem);
+    line-height: 1.4;
+    color: #e3c1c7;
+    max-width: 44ch;
+    font-family: "Source Sans 3", sans-serif;
   }
 
-  .metric {
-    margin-top: 10px;
-    font-size: 0.95rem;
-    color: #a8c5ff;
-    font-weight: 600;
+  .municipios-index {
+    padding: clamp(22px, 4vw, 42px);
+    background: #2a141a;
   }
 
-  @media (max-width: 720px) {
-    :global(body) {
-      padding: 8px;
-    }
+  .index-frame {
+    border: 1px solid #66343f;
+    padding: 16px;
+  }
 
-    .story-page {
-      display: block;
-    }
+  .index-map-line {
+    height: 220px;
+    border: 1px solid #5f303a;
+    background:
+      linear-gradient(120deg, rgba(235, 103, 123, 0.18) 0%, rgba(235, 103, 123, 0.03) 40%, rgba(235, 103, 123, 0.15) 100%),
+      repeating-linear-gradient(0deg, rgba(235, 176, 188, 0.2) 0px, rgba(235, 176, 188, 0.2) 1px, transparent 1px, transparent 24px),
+      repeating-linear-gradient(90deg, rgba(235, 176, 188, 0.18) 0px, rgba(235, 176, 188, 0.18) 1px, transparent 1px, transparent 24px);
+  }
 
-    .map-stage {
-      height: 100svh;
+  .index-columns {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px 16px;
+  }
+
+  .index-row {
+    display: grid;
+    gap: 4px;
+    align-content: start;
+  }
+
+  .index-row.disabled {
+    opacity: 0.52;
+  }
+
+  .index-link {
+    color: #ffd5dc;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  .index-link:hover {
+    color: #ff8d9b;
+  }
+
+  .index-link.muted {
+    color: #d6a8b1;
+  }
+
+  .meta {
+    color: #c59ea6;
+    font-size: 0.84rem;
+    font-family: "Source Sans 3", sans-serif;
+  }
+
+  @media (max-width: 980px) {
+    .scrolly-stage {
+      min-height: 360vh;
     }
 
     .story-panels {
-      margin-top: -100svh;
-      padding-top: 34svh;
-      padding-inline: 10px;
-      width: auto;
-    }
-
-    .story-steps {
-      margin-top: 26vh;
+      padding: 0 10px;
     }
 
     .story-card {
-      min-height: 42svh;
-      margin-bottom: 16svh;
-      padding: 8px;
-      text-align: center;
+      min-height: 74vh;
+      width: min(92vw, 760px);
+      margin-bottom: 12vh;
+    }
+
+    .index-columns {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 560px) {
+    .index-columns {
+      grid-template-columns: 1fr;
+    }
+
+    .index-map-line {
+      height: 160px;
     }
   }
 </style>

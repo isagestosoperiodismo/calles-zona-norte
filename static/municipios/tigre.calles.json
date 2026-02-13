@@ -1,0 +1,2876 @@
+﻿[
+    {
+        "municipio":  "tigre",
+        "nombre":  "BELGRANO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BERNARDINO RIVADAVIA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FELIX PAGES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUIS BORGES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JULIO CORTAZAR",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FERNANDEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AV GRL JUAN D PERON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CORSINI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ANGEL GALLARDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VEDIA Y MITRE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE MARIA PAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALBARELLOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUIDO SPANO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "TOMAS GODOY (CRUZ)",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CHILAVERT",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MONTES DE OCA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GORRITI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "QUINTINO BOCAYUVA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALVEAR",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN GUTIERREZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RIVAROLA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VICENTE F LOPEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DEAN FUNES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JACQUES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "A PERNA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RAMON FALCON",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL ROCA / JULIO A ROCA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BERNARDO DE IRIGOYEN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PIEDRABUENA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BARTOLOME MITRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SARMIENTO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MANUEL ARTIGAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "TEDIN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROQUE SAENZ PENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CMTE CALZADILLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAN MARTIN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GARMENDIA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SANTIAGO DE LINIERS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VILLANUEVA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ARISTOBULO DEL VALLE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FREIRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LAS HERAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GODOY CRUZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "cultura",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "TROTTA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL CONESA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL DIAZ VELEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GAZCON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HENRY FORD",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EDUARDO MADERO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "QUIRNO COSTA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAN AGUSTIN",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CNL MORALES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VELEZ SARSFIELD",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FOURNIER",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DARDO ROCHA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FALUCHO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUEMES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARABOTTO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GELLY Y OBES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SOTOMAYOR",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE INGENIEROS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RAWSON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SEGUI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FERNANDO FADER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRAY LUIS BELTRAN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SEBASTIAN EL CANO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS TEJEDOR",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROBERTO ARLT",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "H ASCASUBI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CNL VILELA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALFONSINA STORNI",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS DELCASSE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "TIRSO DE MOLINA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN DE GARAY",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE E URIBURU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PEDRO DE MENDOZA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EVA CURIE",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VALENTIN GOMEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BOUSSOF",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE LEON SUAREZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PETORUTTI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRAY LUIS DE LEON",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PIZZURNO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN B BIBILONI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AVELLANEDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SIVORI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ESTEBAN ECHEVERRIA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FORTE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RICCHIERI / GRL RICCHIERI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL VILLEGAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "B FRANKLIN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SANTA ROSA DE LIMA",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUIS MARIA CAMPOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MONTEAGUDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALBERDI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CENTURION",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RUFINO DE ELIZALDE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PAUL GROUSSAC",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "QUINQUELA MARTIN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CASTAGNINO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARDENAL FAGNANO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BOSALDON",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "QUINTANA / MANUEL QUINTANA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN SEBASTIAN BACH",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARCOS SASTRE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LEANDRO ALEM / LEANDRO N ALEM",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARQUEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUIS VERNET",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DE LA CARCOVA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DON BOSCO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SGTO DIAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARIANO MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BERUTI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SPLIMBRGO (Spilimbergo)",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAN CAYETANO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J H ROMERO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRAY CASTANEDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAAVEDRA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE VITALE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE MARMOL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAN FRANCISCO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUGONES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EDUARDO DE LUCA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CASTELLI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "NTRA SRA DEL CARMEN",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "san-isidro",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FIGUEROA ALCORTA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "R SILVA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CESPEDES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GASCON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARTIN RODRIGUEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAN JOSE OBRERO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PEDRO GOYENA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AREVALOS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS PELLEGRINI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MOZART",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RICARDO GUIRALDES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HUMBOLT",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL SOLER",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUIDO PODAVIZI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DR E CASTELAR",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FARADAY",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CERVINO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SOLIS",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROCHA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN RAMON ESTOMBA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PITAGORAS",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DONATO ALVAREZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ARAOZ DE LAMADRID",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE E RODO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MONROE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AV HIPOLITO YRIGOYEN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "WILLIAMS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "M GARCIA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN J PASO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROQUE PEREZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ARENALES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BEAUCHEFF",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SARRATEA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VESPUCIO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DARRAGUEIRA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MANUEL DE FALLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN MARIA GUTIERREZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AZOPARDO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUCIO MANSILLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALVAREZ JONTE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JORGE NEWBERY",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DR CARRILLO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MERMOZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HERNAN CORTEZ",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HUGO DEL CARRIL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "C EBERTH",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "E ZEBALLOS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DERQUI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "QUEVEDO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "R PALMA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN G FUNES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DIEGO PALMA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRENCH",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL MOSCONI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FELIX FRIAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUANA AZURDUY",
+        "genero":  "F",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EMILIO MITRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PIROVANO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALEJANDRO VOLTA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "POSADAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VICTOR HUGO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALEXANDER FLEMING",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARTIN CORONADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AMEGHINO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "NTRA SRA DE FATIMA",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL GUEMES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EMILIO LAMARCA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "A SACRISTI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALEXIS CARREL",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN MANUEL DE ROSAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL JUAN ANDRES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "M C BOENA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J GAONA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRAY MAMERTO ESQUIU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LAVALLEJA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J VALLE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SANTIAGO DERQUI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EDUARDO OZANAM",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "REBAGLIATTI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "OHIGGINS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BEETHOVEN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VIAMONTE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SGT CABRAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL JUSTO JOSE DE URQUIZA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL ARTIGAS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CAZON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL PACHECO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CERVANTES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "WASHINGTON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LAPRIDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUIS PASTEUR",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VIVALDI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AMADO NERVO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUSTO JOSE DE URQUIZA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FEDERICO LACROZE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BOLIVAR",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CRISTOBAL COLON",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SUAREZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GORRITI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RODRIGUEZ PENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BLAS PARERA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VICENTE LOPEZ Y PLANES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL MANUEL BELGRANO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SUCRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRAY LUIS BELTRAN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ZAPIOLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS M DE ALVEAR",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PUEYRREDON",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS TEJEDOR",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GELLY Y OBES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J COLOMBRES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL ESPEJO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LAVALLE / GRL JUAN GALO LAVALLE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J M ROMERO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VIAMONTE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "KENNEDY",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DR DELLEPIANE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOAQUIN V GONZALEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "M GARCIA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BRANDSEN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL MADARIAGA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J BOLANOS",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MANUEL BRID",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "M T DE ALVEAR / MARCELO T DE ALVEAR",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL ALVARADO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "COMOD RIVADAVIA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN ROCHA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FLORENCIO VARELA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GODOY CRUZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN PEDRO ECHEVERRIA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BERUTI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PADRE CASTANEDA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AZCUENAGA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARTIN RODRIGUEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CHICLANA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J M REYBAUD",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "M OBARRIO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LISANDRO DE LA TORRE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL JOSE MARIA PAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PTE DERQUI / SANTIAGO DERQUI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUTIERREZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL BARTOLOME MITRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LINIERS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DOMINGO MATHEU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUIDO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "A DE SUCRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN BAUTISTA ALBERDI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE MANUEL ESTRADA / M ESTRADA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "R DE ESCALADA DE SAN MARTIN",
+        "genero":  "F",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SARMIENTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FELIX FRIAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE CEBEY",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EMILIO LAMARCA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL JOSE ARTIGAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "OLAZABAL / GRL MANUEL DE OLAZABAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BALBASTRO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SALVADOR DEL CARRIL",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "REYNOSO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAAVEDRA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BLANCO ENCALADA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROSALES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "QUINTANILLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARCOS PAZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "A DIAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALBERTI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAN MARTIN DE TOURS",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL CAMPOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BALCARCE / GRL JOSE BALCARCE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SAAVEDRA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VELEZ SARSFIELD",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL RICCHIERI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRAY JUSTO SANTAMARIA DE ORO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DEMARIA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "C OLIVARES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VERA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AV LDOR GRL SAN MARTIN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AV CNL ESCALADA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CNL VALENTINI DE OLAVARRIA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GARAY / JUAN DE GARAY",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARIANO MORENO / MORENO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CNL PRINGLES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE MARIA PAZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL MARIANO NECOCHEA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS PELLEGRINI",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HILARIO URIONAGUENA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALMTE GUILLERMO BROWN / GDOR BROWN",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL JUAN GALO LAVALLE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PADRE BERRUETE",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MANRIQUE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FELIPE II",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROBERTO DE LA PLACE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FIGUEROA ALCORTA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL MATIAS ZAPIOLA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AGUIRRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SGT CABRAL",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DON BOSCO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DOMINGO FRENCH / FRENCH",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "cultura",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SEGUROLA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GALILEO GALILEI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN B JUSTO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "E LOPEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE INGENIEROS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN ANCHORENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DR CARLOS NOEL",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS CASARES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HIPOLITO VIEYTES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL M GUEMES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DOMINGO MARTINEZ DE IRALA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROCAMORA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JORGE ANTONIO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RAUL CASTIGLIONI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ESQUIU / FRAY MAMERTO ESQUIU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LAMADRID",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE C PAZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROMERO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "IRYGOYEN / HIPOLITO YRIGOYEN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "OHIGGINS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VERTIZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GARIBALDI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DR RICARDO BALBIN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GONZALEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "OBLIGADO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ANIBAL GONZALEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DON ORIONE",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUCIO V LOPEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CNL ROSALES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ADOLFO LEBER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BENITO LINCH",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE MARIA BILLOCH",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "TEDIN",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SALDIAS",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MONSEGUR",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VICTORICA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ARAMBURU",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "UDAONDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CASARETO",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARTINEZ",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FAVA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "H DE LA QUINTANA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUIS GARCIA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALSINA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "INT JOVE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CESAR OLIVEIRA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALBARELLOS",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BOLO BOLANOS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DELFIN L GARAZA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VICENTE F LOPEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MONTES DE OCA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUIS BOURDEN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RUPERTO MAZZA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LARREA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "A DE MARCHI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRAINO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE TERRI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VILELA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BOCALANDRO",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ENCISO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL MITRE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BOURDIEU",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUIS PEREIRA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CNL MORALES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PDRE PANCHO SOAREZ",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CNL PIZARRO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J BARVELVIDE / ARBEVIDE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ROQUE SAENZ PENA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRAY C RODRIGUEZ",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PEDRO GUARESCHI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SCHAPAPIETRA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MURATURE",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VALVERDE",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BUTTELER",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "TTE RAMON CHAPA",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "SULLIVAN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ESTHERCITA",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE VERDI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRISETA",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FERNANDO FADER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "E DELFINO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FRANCESITA",
+        "genero":  "F",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PASTEUR / LUIS PASTEUR",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUTEMBERG",
+        "genero":  "M",
+        "categoria":  "Ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GALARZA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUANA DE ARCO",
+        "genero":  "F",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BENITO PEREZ GALDOS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "M ESTRADA",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "T SUSSINI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J BUSCHIAZZO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ANGEL GALLARDO",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LISANDRO DE LA TORRE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PEDRO ARATA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "R CASTILLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "T TASSO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUCIO MELENDEZ",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JIMENEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PJE LUIS BRAILLE",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DR E CASTELAR",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "D AGUADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN RUIZ DE ALARCON",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BELISARIO ROLDAN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RICARDO GUIRALDES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LOPE DE VEGA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HUDSON",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE HERNANDEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ESTANISLAO DEL CAMPO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "J ZORRILLA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RAFAEL OBLIGADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "OLEGARIO V ANDRADE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BLAS PASCAL",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PEDRO B PALACIOS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MENENDEZ Y PELAYO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ESTEBAN ECHEVERRIA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LEOPOLDO LUGONES",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JEAN JAURES",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "HICKEN",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALEXIS CARREL",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DANTE ALIGHIERI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ANASTASIO EL POLLO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LEONARDO DA VINCI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "WHITE",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARRIEGO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "PAULO TOSCANELLI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MIGUEL A BUONAROTTI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ALEXANDER FLEMING",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "BALTAZAR GRACIAN",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUSTAVO A BECQUER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GRL MOSCONI",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GALILEO GALILEI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "FEDERICO OZANAM",
+        "genero":  "M",
+        "categoria":  "religioso"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARTIN CORONADO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "WAGNER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VASCO DA GAMA",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VON WEBER",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JUAN BAUTISTA AZOPARDO",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "WARNES",
+        "genero":  "M",
+        "categoria":  "militar"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "GUILLERMO MARCONI",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MARCOS SASTRE",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "RAUL CASTIGLIONI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MIGUEL DE CERVANTES SAAVEDRA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CARLOS GARDEL",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "JOSE MARTI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "CRISOLOGO LARRALDE",
+        "genero":  "M",
+        "categoria":  "polï¿½tico"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "LUCIO V LOPEZ",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "TOSCANINI",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "MAESTRO VICCO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "VITO DUMAS",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "AMADO NERVO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "EMILIO PICASSO",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "DON SEGUNDO SOMBRA",
+        "genero":  "M",
+        "categoria":  "cultura"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "NEWTON",
+        "genero":  "M",
+        "categoria":  "ciencia"
+    },
+    {
+        "municipio":  "tigre",
+        "nombre":  "ISABEL CEBEY",
+        "genero":  "F",
+        "categoria":  "cultura"
+    }
+]

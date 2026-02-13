@@ -66,6 +66,8 @@ html {
   /* Set the font globally */
   font-family: var(--sans-font);
   scroll-behavior: smooth;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 body {
@@ -74,6 +76,7 @@ body {
   font-size: 1.15rem;
   line-height: 1.5;
   margin: 0;
+  min-height: 100%;
 }
 
 main {

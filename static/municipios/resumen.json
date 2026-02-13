@@ -1,0 +1,82 @@
+﻿[
+    {
+        "slug":  "tigre",
+        "nombre":  "Tigre",
+        "total":  479,
+        "hombres":  467,
+        "mujeres":  12,
+        "personas":  479,
+        "porcentajeHombres":  97.5,
+        "porcentajeMujeres":  2.5
+    },
+    {
+        "slug":  "pilar",
+        "nombre":  "pilar",
+        "total":  510,
+        "hombres":  487,
+        "mujeres":  23,
+        "personas":  510,
+        "porcentajeHombres":  95.5,
+        "porcentajeMujeres":  4.5
+    },
+    {
+        "slug":  "escobar",
+        "nombre":  "escobar",
+        "total":  390,
+        "hombres":  367,
+        "mujeres":  23,
+        "personas":  390,
+        "porcentajeHombres":  94.1,
+        "porcentajeMujeres":  5.9
+    },
+    {
+        "slug":  "san-isidro",
+        "nombre":  "san-isidro",
+        "total":  255,
+        "hombres":  246,
+        "mujeres":  9,
+        "personas":  255,
+        "porcentajeHombres":  96.5,
+        "porcentajeMujeres":  3.5
+    },
+    {
+        "slug":  "vicente-lopez",
+        "nombre":  "vicente-lopez",
+        "total":  182,
+        "hombres":  175,
+        "mujeres":  7,
+        "personas":  182,
+        "porcentajeHombres":  96.2,
+        "porcentajeMujeres":  3.8
+    },
+    {
+        "slug":  "san-fernando",
+        "nombre":  "San Fernando",
+        "total":  156,
+        "hombres":  152,
+        "mujeres":  4,
+        "personas":  156,
+        "porcentajeHombres":  97.4,
+        "porcentajeMujeres":  2.6
+    },
+    {
+        "slug":  "malvinas-argentinas",
+        "nombre":  "Malvinas Argentinas",
+        "total":  363,
+        "hombres":  348,
+        "mujeres":  15,
+        "personas":  363,
+        "porcentajeHombres":  95.9,
+        "porcentajeMujeres":  4.1
+    },
+    {
+        "slug":  "zona-norte",
+        "nombre":  "Zona Norte",
+        "total":  2335,
+        "hombres":  2242,
+        "mujeres":  93,
+        "personas":  2335,
+        "porcentajeHombres":  96,
+        "porcentajeMujeres":  4
+    }
+]

@@ -81,14 +81,28 @@ export function annotateGeojson(
     }))
     .filter((c: any) => c.nombreNorm.length > 1);
 
+  const exactMatch = new Map<string, any>();
+  for (const calle of callesDB) {
+    if (!exactMatch.has(calle.nombreNorm)) {
+      exactMatch.set(calle.nombreNorm, calle);
+    }
+  }
+
+  const partialMatch = [...callesDB].sort(
+    (a: any, b: any) => b.nombreNorm.length - a.nombreNorm.length,
+  );
+
   const features = geojson.features.map((f: any) => {
     const name = f.properties?.name || "";
     const nombreGeo = normalizeText(name);
-    const match = callesDB.find(
-      (c: any) =>
-        nombreGeo &&
-        (nombreGeo.includes(c.nombreNorm) || c.nombreNorm.includes(nombreGeo)),
-    );
+    let match = exactMatch.get(nombreGeo);
+
+    if (!match && nombreGeo) {
+      match = partialMatch.find(
+        (c: any) =>
+          nombreGeo.includes(c.nombreNorm) || c.nombreNorm.includes(nombreGeo),
+      );
+    }
 
     return {
       ...f,
@@ -97,6 +111,8 @@ export function annotateGeojson(
         genero: match ? match.genero : "otro",
         matched: Boolean(match),
         hasName: Boolean(name.trim()),
+        categoria: match ? match.categoria : null,
+        matchedName: match ? match.nombre : null,
       },
     };
   });
